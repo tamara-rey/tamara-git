@@ -72,46 +72,46 @@ main section h2 {
 
     .tituloLideres {
         grid-area: tituloLideres;
-        color: yellow;
-    }
-
-    .somosLideres img {
-        width: 100%;
-        height: 100%;
-    }
-
-    .imgLideres {
-        grid-area: imgLideres;
-
-    }
-
-    .pLideres {
-        grid-area: pLideres;
-    }
-
-    .imgInnovadores {
-        grid-area: imgInnovadores;
-    }
-
-    .tituloInnovadores {
-        grid-area: tituloInnovadores;
         color: $amarillo;
     }
 
-    .pInnovadores {
-        grid-area: pInnovadores;
-    }
-
-    .motivacional img {
-        width: 100%;
-        height: 100%;
-    }
+  
+}
+.somosLideres img {
+    width: 100%;
+    height: 100%;
 }
 
+.imgLideres {
+    grid-area: imgLideres;
+
+}
+
+.pLideres {
+    grid-area: pLideres;
+}
+
+.imgInnovadores {
+    grid-area: imgInnovadores;
+}
+
+.tituloInnovadores {
+    grid-area: tituloInnovadores;
+    color: $amarillo;
+}
+
+.pInnovadores {
+    grid-area: pInnovadores;
+}
+
+.motivacional img {
+    width: 100%;
+    height: 100%;
+}
 .motivacional {
     display: grid;
-    background-color: #B2B1B9;
-    color: black;
+    background-color: $gris;
+    color: $negro;
     text-align: center;
     padding: 40px;
     width: 100%;
@@ -130,46 +130,47 @@ main section h2 {
 
     .tituloGrid {
         grid-area: tituloGrid;
-        color: yellow;
+        color: $amarillo;
         font-size: 1.5rem;
         text-decoration: underline;
     }
 
-    .imagenGrid {
-        grid-area: imagenGrid;
+   
+
+}
+.imagenGrid {
+    grid-area: imagenGrid;
 
 
-    }
+}
 
-    .imagenGridNutricion {
-        grid-area: imagenGridNutricion;
+.imagenGridNutricion {
+    grid-area: imagenGridNutricion;
 
-    }
+}
 
-    .nutricionGrid {
-        grid-area: nutricionGrid;
-        text-align: center;
-    }
+.nutricionGrid {
+    grid-area: nutricionGrid;
+    text-align: center;
+}
 
-    .speech {
-        grid-area: speech;
-        text-align: justify;
-    }
+.speech {
+    grid-area: speech;
+    text-align: justify;
+}
 
 
-    .entrenamientoGrid {
-        grid-area: entrenamientoGrid;
-        text-align: center;
+.entrenamientoGrid {
+    grid-area: entrenamientoGrid;
+    text-align: center;
 
-    }
+}
 
-    .pEntrenamiento {
-        padding-top: 10px;
-    }
+.pEntrenamiento {
+    padding-top: 10px;
+}
 
-    .imagenEntrenamientoGrid {
-        grid-area: imagenEntrenamientoGrid;
-
-    }
+.imagenEntrenamientoGrid {
+    grid-area: imagenEntrenamientoGrid;
 
 }
