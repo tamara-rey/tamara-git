@@ -1,0 +1,45 @@
+.mainBeneficios{
+    background-color: $negro;
+    .beneficios{
+        text-align: center;
+        .nuestrosServicios{
+            padding-top: 15px;
+            font-size: 2rem;
+        }
+        .noMasExcusas{
+            padding-top: 40px;
+        }
+        
+    }
+}
+.beneficioNutricion{
+    text-align: center;
+    padding-top: 15px;
+    .tenemosNutricionistas{
+        color: $amarillo;
+        padding-bottom: 15px;
+    }
+    .manzana{
+        padding-bottom: 20px;
+        width: 50rem;
+    }
+    .hidratacion{
+        width: 30rem;
+        padding-bottom: 15px;
+    }
+
+}
+.beneficiosActividades{
+    padding-bottom: 15px;
+    .h3Beneficio{
+        color: $amarillo;
+    }
+    .sedesAca{
+        font-size: 2rem;
+        padding-top: 15px;
+    
+    }
+    .listaOrdenada{
+        list-style-type: none;
+    }
+ }

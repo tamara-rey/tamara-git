@@ -1,0 +1,493 @@
+/*paleta de colore*/
+/*flex*/
+/*fonts family*/
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+/* generales*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62, 5%;
+}
+
+body {
+  font-family: "Merriweather", serif;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #ffff00;
+  text-align: center;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+/* partials*/
+.pruebaBoostrap nav ul a {
+  color: #ffff00;
+}
+
+.navColor {
+  background-color: #000000;
+}
+.navColor .navbar-toggler {
+  background-color: #ffff00;
+}
+.navColor .nav-link:hover {
+  color: #ffff00;
+}
+
+footer section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000;
+  color: #ffff00;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+  gap: 50px;
+  width: 100%;
+  padding-top: 20px;
+}
+footer section .redes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 50%;
+  padding-left: 10px;
+}
+footer section .redes a img {
+  width: 8rem;
+}
+footer section .mapita {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-right: 10px;
+  gap: 10px;
+}
+
+main section {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  align-items: center;
+}
+main section .necesitoEspacio {
+  padding: 40px;
+  gap: 40px;
+}
+main section .necesitoEspacio .conectamosEntrenamiento {
+  padding: 15px;
+}
+main section .necesitoEspacio .eslogan {
+  font-size: 1.7rem;
+  padding: 30px;
+}
+main section main section img {
+  text-align: center;
+  align-items: center;
+}
+
+main section h2 {
+  text-decoration: underline;
+}
+
+.nuestraHistoria {
+  background-color: #B2B1B9;
+  color: #000000;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  align-items: center;
+}
+.nuestraHistoria .imgHistoria {
+  width: 30%;
+  height: 30%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  align-items: center;
+}
+
+.somosLideres {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  grid-template-rows: repeat(4 150px);
+  grid-template-areas: "tituloLideres imgLideres" "pLideres imgLideres" "imgInnovadores tituloInnovadores" "imgInnovadores pInnovadores";
+  padding: 40px;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  row-gap: 10px;
+  column-gap: 10px;
+}
+.somosLideres .tituloLideres {
+  grid-area: tituloLideres;
+  color: yellow;
+}
+.somosLideres .somosLideres img {
+  width: 100%;
+  height: 100%;
+}
+.somosLideres .imgLideres {
+  grid-area: imgLideres;
+}
+.somosLideres .pLideres {
+  grid-area: pLideres;
+}
+.somosLideres .imgInnovadores {
+  grid-area: imgInnovadores;
+}
+.somosLideres .tituloInnovadores {
+  grid-area: tituloInnovadores;
+  color: #ffff00;
+}
+.somosLideres .pInnovadores {
+  grid-area: pInnovadores;
+}
+.somosLideres .motivacional img {
+  width: 100%;
+  height: 100%;
+}
+
+.motivacional {
+  display: grid;
+  background-color: #B2B1B9;
+  color: black;
+  text-align: center;
+  padding: 40px;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: 20% 30% 22% 22%;
+  grid-template-rows: repeat(3 150px);
+  grid-template-areas: "tituloGrid imagenGrid imagenGridNutricion nutricionGrid" "speech imagenGrid imagenGridNutricion nutricionGrid" "speech imagenGrid entrenamientoGrid imagenEntrenamientoGrid";
+  row-gap: 10px;
+  column-gap: 10px;
+}
+.motivacional .tituloGrid {
+  grid-area: tituloGrid;
+  color: yellow;
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
+.motivacional .imagenGrid {
+  grid-area: imagenGrid;
+}
+.motivacional .imagenGridNutricion {
+  grid-area: imagenGridNutricion;
+}
+.motivacional .nutricionGrid {
+  grid-area: nutricionGrid;
+  text-align: center;
+}
+.motivacional .speech {
+  grid-area: speech;
+  text-align: justify;
+}
+.motivacional .entrenamientoGrid {
+  grid-area: entrenamientoGrid;
+  text-align: center;
+}
+.motivacional .pEntrenamiento {
+  padding-top: 10px;
+}
+.motivacional .imagenEntrenamientoGrid {
+  grid-area: imagenEntrenamientoGrid;
+}
+
+.veneficios {
+  font-size: 2rem;
+  padding-bottom: 15px;
+  width: 100%;
+  height: 100%;
+}
+.veneficios .producto {
+  width: 50%;
+  height: 50%;
+}
+.veneficios .imgApp {
+  width: 50%;
+  height: 50%;
+}
+
+.mainBeneficios {
+  background-color: #000000;
+}
+.mainBeneficios .beneficios {
+  text-align: center;
+}
+.mainBeneficios .beneficios .nuestrosServicios {
+  padding-top: 15px;
+  font-size: 2rem;
+}
+.mainBeneficios .beneficios .noMasExcusas {
+  padding-top: 40px;
+}
+
+.beneficioNutricion {
+  text-align: center;
+  padding-top: 15px;
+}
+.beneficioNutricion .tenemosNutricionistas {
+  color: #ffff00;
+  padding-bottom: 15px;
+}
+.beneficioNutricion .manzana {
+  padding-bottom: 20px;
+  width: 50rem;
+}
+.beneficioNutricion .hidratacion {
+  width: 30rem;
+  padding-bottom: 15px;
+}
+
+.beneficiosActividades {
+  padding-bottom: 15px;
+}
+.beneficiosActividades .h3Beneficio {
+  color: #ffff00;
+}
+.beneficiosActividades .sedesAca {
+  font-size: 2rem;
+  padding-top: 15px;
+}
+.beneficiosActividades .listaOrdenada {
+  list-style-type: none;
+}
+
+.bannerNutri {
+  width: 100%;
+  height: 100%;
+  min-height: 79vh;
+  background-image: url(../img/nuticionDeportiva.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.facil {
+  background-color: #B2B1B9;
+  color: #000000;
+}
+.facil .solicitarTurno {
+  text-align: center;
+  color: #ffff00;
+}
+.facil form label {
+  font-size: 1.5rem;
+  color: #ffff00;
+}
+.facil .consulta {
+  color: #ffff00;
+}
+.facil .paraEso {
+  font-size: 1.5rem;
+}
+
+.mainSedes {
+  background-color: #B2B1B9;
+  align-items: center;
+  justify-content: center;
+}
+.mainSedes .tituloSedes {
+  color: #000000;
+  background-color: #B2B1B9;
+}
+.mainSedes .sedes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #B2B1B9;
+  color: #000000;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+}
+.mainSedes .equipamento {
+  background-color: #B2B1B9;
+  color: #000000;
+}
+.mainSedes .listadoClases {
+  background-color: #000000;
+  color: #ffff00;
+  text-align: center;
+}
+.mainSedes .listadoClases .multiplesClases {
+  font-size: 1.5rem;
+  list-style-type: none;
+}
+.mainSedes .horariosClases {
+  background-color: #000000;
+  text-align: center;
+  color: #ffff00;
+}
+.mainSedes .horariosClases .intentoColor {
+  color: #ffffff;
+}
+
+/* responsive mobile */
+@media only screen and (max-width: 450px) {
+  /*generales*/
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+  /* header*/
+  header a img {
+    padding-left: 50px;
+  }
+  header {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  header nav {
+    width: 100%;
+  }
+  header ul {
+    width: 100%;
+    font-size: 1rem;
+    padding-top: 5%;
+  }
+  /*footer*/
+  footer section {
+    gap: none;
+  }
+  .mapita {
+    display: none;
+  }
+  .footerContactanos {
+    display: none;
+  }
+  footer div a img {
+    width: 5rem;
+  }
+  .redes {
+    width: 100%;
+    padding-top: 10px;
+  }
+  /*index*/
+  .conectamosEntrenamiento {
+    padding: 0;
+  }
+  .bannerIndex {
+    width: 90%;
+  }
+  .eslogan em {
+    font-size: 1rem;
+  }
+  .nuestraHistoria {
+    display: none;
+  }
+  .somosLideres {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .motivacional {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .imagenGridNutricion {
+    display: none;
+  }
+  .conocenos {
+    display: none;
+  }
+  /* beneficios*/
+  .beneficios {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 20px;
+  }
+  .noMasExcusas {
+    width: 40%;
+    height: 50%;
+  }
+  .chicasEntrenando {
+    display: none;
+  }
+  .manzana {
+    display: none;
+  }
+  .hidratacion {
+    display: none;
+  }
+  .beneficiosActividades {
+    display: none;
+  }
+  .mainBeneficios {
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  /*asociados*/
+  .veneficios {
+    font-size: 1rem;
+    padding-right: 15px;
+  }
+  /*sedes*/
+  .listadoClases {
+    width: 100%;
+    height: 100%;
+  }
+  .imgCrossfit {
+    width: 80%;
+    height: 80%;
+  }
+  .sedes {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  /*salud*/
+  .descargarApp {
+    width: 100%;
+    height: 100%;
+  }
+  .appSalud {
+    width: 100%;
+    height: 90%;
+  }
+  .bannerNutri::before {
+    display: none;
+  }
+  .bannerNutri {
+    min-height: 50vh;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */

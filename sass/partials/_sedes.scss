@@ -1,0 +1,43 @@
+.mainSedes{
+    background-color: $gris;
+    align-items: center;
+    justify-content: center;
+    .tituloSedes{
+        color: $negro;
+        background-color: $gris ;
+    }
+    .sedes{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color:$gris ;
+        color: $negro;
+        gap: 15px;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .equipamento{
+        background-color:$gris;
+        color: $negro;
+    }
+    .listadoClases{
+        background-color: $negro;
+        color: $amarillo;
+        text-align: center;
+        .multiplesClases{
+            font-size: 1.5rem;
+            list-style-type: none;
+        }
+    }
+    .horariosClases{
+        background-color: $negro;
+        text-align: center;
+        color: $amarillo;
+        .intentoColor{
+            color: $blanco;
+        
+        }
+    }
+    
+}

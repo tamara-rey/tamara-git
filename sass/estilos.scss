@@ -1,0 +1,41 @@
+@import "utilidades/variables";
+
+/*fonts family*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+/* generales*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+html {
+    font-size: 62,5%;
+}
+body{
+    font-family: $font; 
+}
+h1{
+    font-size: 4rem;
+    color: $amarillo;
+    text-align: center;
+}
+h2{ 
+    font-size: 3rem;
+}
+h3{
+    font-size: 2rem;
+}
+p{
+    font-size: 1.5rem;
+}
+
+/* partials*/
+@import "utilidades/header";
+@import "utilidades/footer";
+@import "partials/index";
+@import "partials/asociados";
+@import "partials/beneficios";
+@import "partials/salud";
+@import "partials/sedes";
+@import "utilidades/mediaQ";

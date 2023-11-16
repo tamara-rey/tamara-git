@@ -1,0 +1,14 @@
+$font: 'Merriweather', serif;
+/*paleta de colore*/
+$marron:#595260;
+$gris:#B2B1B9;
+$blanco:#ffffff;
+$negro:#000000;
+$amarillo: #ffff00;
+/*flex*/
+@mixin flex ($direction, $justify, $aling){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $aling;
+}

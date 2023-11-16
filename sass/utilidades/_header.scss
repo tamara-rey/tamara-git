@@ -1,0 +1,17 @@
+.pruebaBoostrap nav ul a {
+    color: $amarillo;
+
+}
+
+.navColor {
+    background-color: $negro;
+
+    .navbar-toggler {
+        background-color: $amarillo;
+
+    }
+
+    .nav-link:hover {
+        color: $amarillo;
+    }
+}
