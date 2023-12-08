@@ -645,5 +645,24 @@ main section h2 {
     height: 50%;
   }
 }
+/*responsive a mi gusto del footer*/
+@media only screen and (min-width: 979px) and (max-width: 1350px) {
+  footer section {
+    gap: none;
+  }
+  footer section .redes {
+    width: 100%;
+    padding-top: 10px;
+  }
+  footer section .redes .footerContactanos {
+    display: none;
+  }
+  footer section .redes a img {
+    width: 5rem;
+  }
+  footer section .mapita {
+    display: none;
+  }
+}
 
 /*# sourceMappingURL=estilos.css.map */

@@ -155,9 +155,11 @@
         padding-left: 15px;
         padding-right: 15px;
     }
+
     .listadoClases {
         width: 100%;
         height: 100%;
+
         .imgCrossfit {
             width: 80%;
             height: 80%;
@@ -167,6 +169,7 @@
     /*salud*/
     .bannerNutri {
         min-height: 50vh;
+
         .bannerNutri::before {
             display: none;
         }
@@ -175,15 +178,16 @@
     .descargarApp {
         width: 100%;
         height: 100%;
+
         .appSalud {
             width: 100%;
             height: 90%;
         }
-      
+
     }
-   
+
 }
-   
+
 /* responsive tablet */
 @media only screen and (min-width: 451px) and (max-width: 978px) {
     /*generales*/
@@ -251,8 +255,9 @@
         }
 
     }
-       /*index*/
-       .necesitoEspacio {
+
+    /*index*/
+    .necesitoEspacio {
 
         .bannerIndex {
             width: 90%;
@@ -287,7 +292,7 @@
         }
 
     }
-    
+
     /* beneficios*/
     .mainBeneficios {
         padding-bottom: 10px;
@@ -324,52 +329,83 @@
 
 
     }
-       /*asociados*/
-       .veneficios {
+
+    /*asociados*/
+    .veneficios {
         font-size: 2rem;
         padding-right: 15px;
     }
-    
+
     /*sedes*/
     .sedes {
         padding-left: 15px;
         padding-right: 15px;
     }
+
     .listadoClases {
         width: 100%;
         height: 100%;
+
         .imgCrossfit {
             width: 80%;
             height: 80%;
         }
     }
+
     /*salud*/
-    .container{
+    .container {
         margin-right: 0%;
         padding-right: 0%;
     }
+
     .bannerNutri {
         min-height: 50vh;
+
         .bannerNutri::before {
             display: none;
         }
-       
+
     }
-    .col-sm-8{
+
+    .col-sm-8 {
         align-items: center;
         text-align: center;
         padding-left: 150px;
-        
+
     }
 
     .descargarApp {
         width: 100%;
         height: 100%;
+
         .appSalud {
             width: 60%;
             height: 50%;
         }
-      
-    }
 
-} 
+    }
+}
+/*responsive a mi gusto del footer*/
+@media only screen and (min-width: 979px) and (max-width: 1350px){
+    footer section {
+        gap: none;
+
+        .redes {
+            width: 100%;
+            padding-top: 10px;
+
+            .footerContactanos {
+                display: none;
+            }
+
+            a img {
+                width: 5rem;
+            }
+        }
+
+        .mapita {
+            display: none;
+        }
+
+    }
+}
