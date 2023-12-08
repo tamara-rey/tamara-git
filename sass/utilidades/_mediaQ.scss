@@ -184,26 +184,28 @@
    
 }
    
-/* responsive tablets*/
+/* responsive tablet */
+@media only screen and (min-width: 451px) and (max-width: 978px) {
+    /*generales*/
 
-@media only screen and( min-width: 451px) and (max-width: 978px) {
-    /* generales*/
     h1 {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 
     h2 {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     h3 {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 
     p {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
+
     /* header*/
+
     header {
         flex-direction: column;
         align-items: center;
@@ -225,30 +227,149 @@
         }
 
     }
-        /*footer*/
-        footer section {
-            gap: none;
-    
-            .redes {
-                width: 100%;
-                padding-top: 10px;
-    
-                .footerContactanos {
-                    display: none;
-                }
-    
-                a img {
-                    width: 5rem;
-                }
-            }
-    
-            .mapita {
+
+
+    /*footer*/
+    footer section {
+        gap: none;
+
+        .redes {
+            width: 100%;
+            padding-top: 10px;
+
+            .footerContactanos {
                 display: none;
             }
-    
+
+            a img {
+                width: 5rem;
+            }
         }
 
-}
-    
+        .mapita {
+            display: none;
+        }
 
+    }
+       /*index*/
+       .necesitoEspacio {
+
+        .bannerIndex {
+            width: 90%;
+        }
+
+        .conectamosEntrenamiento {
+            padding: 0;
+        }
+
+        .eslogan em {
+            font-size: 1rem;
+        }
+    }
+
+    .nuestraHistoria {
+        display: none;
+    }
+
+    .somosLideres {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .motivacional {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+        .imagenGridNutricion {
+            display: none;
+        }
+
+    }
     
+    /* beneficios*/
+    .mainBeneficios {
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+
+        .beneficios {
+            width: 100%;
+            height: 100%;
+            padding-bottom: 20px;
+
+            .noMasExcusas {
+                width: 40%;
+                height: 50%;
+            }
+
+            .chicasEntrenando {
+                display: none;
+            }
+
+        }
+
+        .manzana {
+            display: none;
+        }
+
+        .hidratacion {
+            display: none;
+        }
+
+        .beneficiosActividades {
+            display: none;
+        }
+
+
+    }
+       /*asociados*/
+       .veneficios {
+        font-size: 2rem;
+        padding-right: 15px;
+    }
+    
+    /*sedes*/
+    .sedes {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .listadoClases {
+        width: 100%;
+        height: 100%;
+        .imgCrossfit {
+            width: 80%;
+            height: 80%;
+        }
+    }
+    /*salud*/
+    .container{
+        margin-right: 0%;
+        padding-right: 0%;
+    }
+    .bannerNutri {
+        min-height: 50vh;
+        .bannerNutri::before {
+            display: none;
+        }
+       
+    }
+    .col-sm-8{
+        align-items: center;
+        text-align: center;
+        padding-left: 150px;
+        
+    }
+
+    .descargarApp {
+        width: 100%;
+        height: 100%;
+        .appSalud {
+            width: 60%;
+            height: 50%;
+        }
+      
+    }
+
+} 
